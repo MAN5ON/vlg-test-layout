@@ -18,10 +18,10 @@
 *P.S.*
 *Личного опыта работы с 1С нет*
 
-```json
-{
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-}
-```
+Изображение статус бара заменил на два `<div>`
+
+Команды для работы с vite:
+`npm run dev`
+`npm run build`
+`npm preview`
+
