@@ -8,7 +8,14 @@ export const Status = () => {
     <div className={s.status}>
       <div className={s.barHeader}>
         <div>Текущий статус:</div>
-        <div>Работаю</div>
+        <div
+          className={s.statusNow}
+          onClick={function () {
+            alert("Current status");
+          }}
+        >
+          Работаю
+        </div>
       </div>
       <img src={statusBar} className={s.statusBar} />
       <div className={s.barFooter}>
