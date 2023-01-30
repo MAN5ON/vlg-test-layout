@@ -1,0 +1,71 @@
+/* Header */
+
+.header {
+  color: var(--dark-blue);
+  background-color: var(--white);
+}
+
+.dateField {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.datePicker {
+  display: flex;
+  flex-direction: row;
+
+  margin: auto;
+}
+
+.dateInterval {
+  margin: 12px;
+}
+
+.icons {
+  margin: 12px;
+}
+.person,
+.downArrow {
+  margin: 0 12px;
+}
+
+.leftArrow,
+.rightArrow {
+  width: 7px;
+}
+.rightArrow {
+  transform: scale(-1, 1);
+}
+
+/* Usercard */
+
+.userCard {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.personal {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.fullName {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.position {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--gray)
+}

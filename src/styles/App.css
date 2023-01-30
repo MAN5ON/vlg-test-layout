@@ -1,5 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+:root {
+  --green: #36c496;
+  --red: #fb4e4e;
+  --yellow: #fee101;
+  --dark-blue: #001053;
+  --blue: #0aa9ff;
+  --gray: #a6bccc;
+  --white-af: #f7f9fb;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--gray);
+}
 
 .App {
+  height: 100%;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background-color: var(--white-af);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#plan {
+  background-color: var(--green);
+}
+
+#fact {
+  background-color: var(--yellow);
 }

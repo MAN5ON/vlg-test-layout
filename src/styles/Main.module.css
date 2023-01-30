@@ -1,0 +1,53 @@
+/* Statistic */
+
+.statistic {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.redRes {
+  color: var(--red);
+}
+
+.yellowRes {
+  color: var(--yellow);
+}
+
+.greenRes {
+  color: var(--green);
+}
+
+.line {
+  height: 56px;
+  margin-top: 16px;
+  border: 1px solid #a6bccc;
+}
+
+.title {
+  color: var(--gray);
+  font-size: 12px;
+  font-weight: 400;
+  margin: 13px auto;
+}
+.bonus {
+  color: var(--blue);
+}
+
+/* Buttons */
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
