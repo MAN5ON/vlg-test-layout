@@ -28,11 +28,13 @@
 .person,
 .downArrow {
   margin: 0 12px;
+  cursor: pointer;
 }
 
 .leftArrow,
 .rightArrow {
   width: 7px;
+  cursor: pointer;
 }
 .rightArrow {
   transform: scale(-1, 1);
@@ -67,5 +69,5 @@
 .position {
   font-size: 12px;
   font-weight: 400;
-  color: var(--gray)
+  color: var(--gray);
 }
