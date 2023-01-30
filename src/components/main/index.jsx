@@ -28,9 +28,15 @@ export const Main = function ({ user }) {
       <Statistic user={user} />
 
       <div className={s.buttons}>
-        {buttons.map((btn) => (
-          <Buttons key={btn.id} imgSrc={btn.imgSrc} name={btn.text} />
-        ))}
+        {buttons.map(function (btn) {
+          return (
+            <Buttons
+              key={btn.id}
+              imgSrc={btn.imgSrc}
+              name={btn.text}
+            />
+          );
+        })}
       </div>
       <Status />
     </div>
