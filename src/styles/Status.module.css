@@ -23,7 +23,24 @@
 }
 
 .statusBar {
+  display: flex;
   width: 100%;
+}
+
+.planBar, .factBar {
+  height: 12px;
+}
+
+.planBar {
+  width: 75%;
+  background-color: var(--green);
+  border-radius: 5px 0 0 5px;
+}
+
+.factBar {
+  width: 25%;
+  background-color: var(--yellow);
+  border-radius: 0 5px 5px 0;
 }
 
 .bar {

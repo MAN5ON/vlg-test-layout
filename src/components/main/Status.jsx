@@ -1,6 +1,5 @@
 import React from "react";
 
-import statusBar from "../../img/status/status-bar.svg";
 import s from "../../styles/Status.module.css";
 
 export const Status = () => {
@@ -17,7 +16,10 @@ export const Status = () => {
           Работаю
         </div>
       </div>
-      <img src={statusBar} className={s.statusBar} />
+      <div className={s.statusBar}>
+        <div className={s.planBar}/>
+        <div className={s.factBar} />
+      </div>
       <div className={s.barFooter}>
         <div className={s.bar}>
           <div id="plan" className={s.cube} />
